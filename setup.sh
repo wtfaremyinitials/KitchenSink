@@ -29,11 +29,11 @@ tput rc
 
 #Boolean shit needs to be fixed, fast....
 
-if [ $choice == "1" ] ; then 
+if $choice == "1" ; then 
 	touch auto 
 fi
 
-if [ $choice == "2" ] ; then 
+if $choice == "2" ; then 
 	touch man 
 fi
 
