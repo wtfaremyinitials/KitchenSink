@@ -29,24 +29,13 @@ tput rc
 
 #Boolean shit needs to be fixed, fast....
 
-if $choice == "1" ; then 
-	touch auto 
+if $choice == "1" ; then ./auto.sh
+	
 fi
 
 if $choice == "2" ; then 
 	touch man 
 fi
-
-#mkdir Setup_Temp
-#cd Setup_Temp
-#wget
-#wget
-#cd ..
-#mv *.* /Setup_Temp/ /plugins/
-#sleep 5s
-#java -jar $JARNAME -Xmx $XMX -Xms $XMS $ADDARGS
-
-
 
 #The message from hell.
 echo "This should never show.  If it does, you're reading this and not running it."
