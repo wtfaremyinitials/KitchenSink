@@ -29,10 +29,12 @@ tput rc
 
 #Boolean shit needs to be fixed, fast....
 
-if [ $choice = "1" ] ; then touch auto ; else exit
+if [ $choice == "1" ] ; then 
+	touch auto 
 fi
 
-if [ $choice = "2" ] : then touch man ; else exit
+if [ $choice == "2" ] ; then 
+	touch man 
 fi
 
 #mkdir Setup_Temp
