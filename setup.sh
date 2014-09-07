@@ -31,4 +31,4 @@ fi
 
 if [ $choice = "2" ] : then touch man ; else exit
 fi
-echo "BOOBS"
+echo "This should never show.  If it does, you're reading this and not running it."
