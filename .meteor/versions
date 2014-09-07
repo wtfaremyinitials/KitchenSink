@@ -1,6 +1,8 @@
 accounts-base@1.0.1
 accounts-github@1.0.0
 accounts-oauth@1.0.0
+accounts-ui-unstyled@1.0.1
+accounts-ui@1.0.0
 application-configuration@1.0.1
 autopublish@1.0.0
 autoupdate@1.0.6
@@ -28,6 +30,7 @@ iron:layout@0.4.1
 iron:router@0.9.3
 jquery@1.0.0
 json@1.0.0
+less@1.0.7
 livedata@1.0.9
 localstorage@1.0.0
 logging@1.0.2
@@ -37,6 +40,7 @@ minifiers@1.0.2
 minimongo@1.0.2
 mizzao:bootstrap-3@3.2.0
 mongo@1.0.4
+natestrauser:font-awesome@4.2.0
 oauth2@1.0.0
 oauth@1.0.1
 observe-sequence@1.0.2
