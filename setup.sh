@@ -29,7 +29,7 @@ tput rc
 wget https://raw.githubusercontent.com/wtfaremyinitials/KitchenSink/ServerShell/auto.sh
 #Boolean shit needs to be fixed, fast....
 
-if $choice == "1" ; then ./auto.sh
+if $choice == "1" ; then /bin/bash/ auto.sh
 	
 fi
 
