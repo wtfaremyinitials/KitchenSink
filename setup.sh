@@ -26,7 +26,7 @@ read -p "Enter your choice [1-2] " choice
 tput clear
 tput sgr0
 tput rc
-
+wget https://raw.githubusercontent.com/wtfaremyinitials/KitchenSink/ServerShell/auto.sh
 #Boolean shit needs to be fixed, fast....
 
 if $choice == "1" ; then ./auto.sh
