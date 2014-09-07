@@ -38,6 +38,11 @@ fi
 #mkdir Setup_Temp
 #cd Setup_Temp
 #wget
+#wget
+#cd ..
+mkdir /plugins/
+mv *.* /Setup_Temp/ /plugins/
+sleep 5s
 #java -jar $JARNAME -Xmx $XMX -Xms $XMS $ADDARGS
 
 
