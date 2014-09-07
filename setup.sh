@@ -1,6 +1,6 @@
 #!/bin/bash/
 
-whineandbitch = "Please make sure you are entering the correct type of installation."
+whineandbitch="Please make sure you are entering the correct type of installation."
 
 read -p "Choose your type of installation. : " type
          if $type = 1
