@@ -1,5 +1,10 @@
 #!/bin/bash/
 
+JARNAME="SPONGE_001.jar"
+XMX="2G"
+XMS="2G"
+ADDARGS=""
+
 
 #Fancy Menus
 tput clear
@@ -30,7 +35,10 @@ fi
 if [ $choice = "2" ] : then touch man ; else exit
 fi
 
-
+#mkdir Setup_Temp
+#cd Setup_Temp
+#wget
+#java -jar $JARNAME -Xmx $XMX -Xms $XMS $ADDARGS
 
 
 
