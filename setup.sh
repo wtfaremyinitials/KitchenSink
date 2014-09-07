@@ -9,3 +9,4 @@ read -p "Choose your type of installation. : " type
                   
          else
                   exit
+fi
