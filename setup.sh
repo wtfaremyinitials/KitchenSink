@@ -9,4 +9,3 @@ read -p "Choose your type of installation. : " type
          if $type = 2
                   then echo "You have chosen a manual installation.  Please have your package codes ready to be entered."
                   else echo $whineandbitch
-fi
